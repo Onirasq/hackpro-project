@@ -1,39 +1,56 @@
 !DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HackPro - Ethical Hacking</title>
+    <title>HackPro - Learn Ethical Hacking</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to HackPro</h1>
+        <div class="logo">
+            <img src="assets/logo.png" alt="HackPro Logo">
+            <h1>HackPro</h1>
+        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="courses.html">الدورات</a></li>
-                <li><a href="forum.html">المنتدى</a></li>
-                <li><a href="about.html">حول</a></li>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero">
-            <h2>تعلم الهكر الأخلاقي بطريقة تفاعلية</h2>
-            <p>دورات، تمارين، ومحتوى مخصص لتعزيز مهاراتك.</p>
-            <a href="courses.html" class="btn">استعرض الدورات</a>
+            <h2>Master Ethical Hacking with HackPro</h2>
+            <p>Learn ethical hacking from industry experts and gain the skills you need to secure the digital world.</p>
+            <a href="courses.html" class="cta-button">Explore Courses</a>
         </section>
-        <section class="courses-preview">
-            <h3>أبرز الدورات</h3>
-            <ul id="course-list"></ul>
+
+        <section class="features">
+            <h3>Why HackPro?</h3>
+            <div class="feature-box">
+                <h4>Expert Instructors</h4>
+                <p>Our courses are led by professionals with years of experience in cybersecurity.</p>
+            </div>
+            <div class="feature-box">
+                <h4>Hands-on Learning</h4>
+                <p>Engage in practical exercises to apply what you learn in real-world scenarios.</p>
+            </div>
+            <div class="feature-box">
+                <h4>Community Support</h4>
+                <p>Join a vibrant community of learners and professionals.</p>
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>© 2024 HackPro. جميع الحقوق محفوظة.</p>
+        <p>&copy; 2024 HackPro. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
-
 
